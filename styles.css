@@ -84,9 +84,15 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+.center {
+  position: absolute;
+  top:25%;
+  width: 100%;
+  text-align: center;
+}
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: black;
+  color: #9D7F67;
 }
 .card {
   margin: 30px;
@@ -99,7 +105,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #606C38;
 }
 
 ul.skills {
@@ -110,7 +116,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #9D7F67;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -151,8 +157,8 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.instagram {
+  background-image: url(images/instagram.PNG);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
