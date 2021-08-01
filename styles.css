@@ -110,6 +110,13 @@ header .profile-image:hover {
   border-color: #606C38;
 }
 
+.rounded-image {
+  width: 350px;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -156,19 +163,23 @@ ul.skills {
 }
 
 /* Style the counter cards */
-.card {
+.block {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  border-radius: 6px;
   text-align: center;
-  background-color: #f1f1f1;
+  background: #fff;
+  transition: all .5s;
 }
 
-.card img {
+.block img {
   width: 100px;
   height: 100px;
   object-fit: contain;
 }
-.card img:hover {
+.block img:hover {
   transform: scale(1.2) rotate(-5deg);
 }
 
