@@ -87,10 +87,16 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .center {
-  position: absolute;
+  position: sticky;
   top:25%;
   width: 100%;
   text-align: center;
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
 }
 .location {
   background-color: #8ECAE6;
@@ -109,7 +115,7 @@ header .profile-image:hover {
 .card:hover {
   border-color: #FB8500;
 }
-.card img {
+.card .descriptive-img {
   text-align: center;
   width: 400px;
   height: 300px;
@@ -173,12 +179,12 @@ ul.skills {
   transition: all .5s;
 }
 
-.block img {
+.block .awards {
   width: 100px;
   height: 100px;
   object-fit: contain;
 }
-.block img:hover {
+.block .awards:hover {
   transform: scale(1.2) rotate(-5deg);
 }
 
